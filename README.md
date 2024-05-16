@@ -2,7 +2,7 @@
 
 Example UserOperation sponsorship flow on geo-testnet using a patched version of permissionless.js
 
-## Running example
+## Running Example
 
 Fill out Pimlico Api Key
 
@@ -17,6 +17,7 @@ pnpm run start
 ```
 
 ## Using The Patch In Another NPM Project
+
 - Copy `patches/permissionless@0.1.29.patch` to the root of your npm project.
 
 - Add the following to the project's package.json
