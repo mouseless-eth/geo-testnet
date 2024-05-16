@@ -1,0 +1,28 @@
+{
+	"name": "permissionless-patch",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"permissionless": "^0.1.29",
+		"viem": "^2.10.9"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.10.3"
+	},
+	"pnpm": {
+		"patchedDependencies": {
+			"permissionless@0.1.29": "patches/permissionless@0.1.29.patch"
+		}
+	}
+}
