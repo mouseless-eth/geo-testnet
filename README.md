@@ -1,4 +1,4 @@
-# Permissionless.js patch example on geo-testnet
+# Permissionless.js Patch Example On Geo Testnet
 
 Example UserOperation sponsorship flow on geo-testnet using a patched version of permissionless.js
 
